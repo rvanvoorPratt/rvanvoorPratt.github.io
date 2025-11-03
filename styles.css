@@ -1,0 +1,101 @@
+body {
+  background-color: skyblue;
+  color: midnightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+h1 {
+  color: midnightblue;
+  font-size: x-large;
+  text-align: center;
+}
+h2 {
+  color: midnightblue;
+  font-size: medium;
+  text-align: left;
+}
+h3 {
+  color: midnightblue;
+  font-size: medium;
+  text-align: left;
+}
+h4 {
+  color: blueviolet;
+  font-size: small;
+  text-align: left;
+}
+
+.topnav {
+  text-align: center;
+  border-style: solid;
+  border-color: midnightblue;
+  border-radius: 40px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.notes {
+  text-align: center;
+  text-decoration-color: blueviolet;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+}
+
+a {
+  color: midnightblue;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+
+img {
+  border-width: 5px;
+  border-color: antiquewhite;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+figcaption{
+  color: antiquewhite;
+  font-style: italic;
+  padding: 2px;
+  font-size: smaller;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px; 
+  text-align: left;
+}
+th {
+  font-weight: bold;
+}
+tr:hover {
+  background-color: dimgray;
+}
+
+#title {
+  font-family: cursive;
+}
+
+#my-favorite {
+  border-style: double;
+  border-color: darkgreen;
+  border-width: thick;
+  float:left;
+  margin: 20px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  font-size: smaller;
+  text-align: center;
+  bottom:0;
+}
